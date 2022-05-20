@@ -25,6 +25,7 @@
                                 <action selector="editingBegin:" destination="iN0-l3-epB" eventType="editingDidBegin" id="UQQ-UR-CYs"/>
                                 <action selector="editingChange:" destination="iN0-l3-epB" eventType="editingChanged" id="TRL-7l-8p6"/>
                                 <action selector="editingEnd:" destination="iN0-l3-epB" eventType="editingDidEnd" id="NOH-aQ-r4c"/>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="Siy-Sp-CGW"/>
                             </connections>
                         </textField>
                         <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iP3-Nf-38D">
